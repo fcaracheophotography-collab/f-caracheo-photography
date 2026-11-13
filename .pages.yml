@@ -1,0 +1,27 @@
+
+media:
+  input: media
+  output: /media
+
+content:
+  - name: contacto
+    label: Contacto y redes sociales
+    type: file
+    path: contacto.json
+    format: json
+    fields:
+      - name: whatsapp
+        label: WhatsApp
+        type: string
+      - name: pixieset
+        label: Pixieset
+        type: string
+      - name: instagram
+        label: Instagram
+        type: string
+      - name: tiktok
+        label: TikTok
+        type: string
+      - name: facebook
+        label: Facebook
+        type: string
